@@ -23,10 +23,22 @@ CSS3
 📸 Preview
 https://github.com/user-attachments/assets/94623e43-3df2-4d7d-bb90-a09fa9828b6d
 
+📂 Project Structure
+├── index.html        # Main HTML file for the portfolio
+├── style.css         # Custom CSS for styling the portfolio
+└── assets/           # Images and additional resources (optional)
+
 📈 Future Enhancements
 Adding JavaScript for interactivity (e.g., dynamic themes, animations).
 Integrating backend functionality (e.g., contact form).
 
 📝 Notes
+Customization: Feel free to modify this README or add more sections based on your portfolio's specific content and design.
+Updates: As you continue adding new projects or achievements, keep this portfolio updated to reflect your latest work.
+
+contact :
+email: @aasthaagni2003@gmail.com
+Github-@A-Ashh
+
 Feel free to customize this README further or include more details if necessary! 😊
 
