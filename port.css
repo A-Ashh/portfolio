@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #f5f5dc;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.section-heading {
+    font-size: 2rem;
+    margin: 20px auto;
+    padding: 10px 20px;
+    color: #f5f5dc;
+    max-width: 600px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: #6b400c;
+}
+
+.me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+    color: #f5f5dc;
+}
+
+.me-content img {
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.education, .skills, .coursework, .certificate ,.contact{
+    padding: 2rem 1rem;
+    color: #f5deb3;
+}
+
+.education h2, .skills h2, .coursework h2, .certificate h2 {
+    color: #f5f5dc;
+}
+
+.education_content, .skills-list, .coursework-list, .certifications-list {
+    max-width: 1000px;
+    margin: 1.5rem auto;
+    padding: 1rem;
+    border: 1px solid #5a3405;
+    border-radius: 8px;
+    background-color: grey;
+    color: #070707;
+    font-weight: bolder;
+}
+
+.education_content h3, .education_content h4, 
+.skills-list li, .coursework-list li, .certifications-list li {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.education_content p {
+    font-style: italic;
+    font-weight: bold;
+}
+.skills-list, .coursework-list, .certifications-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li, .coursework-list li {
+    font-size: 1.2rem;
+    color:black;
+    margin: 0.5rem 0;
+}
+
+.certifications-list li {
+    font-size: 1.2rem;
+}
+
+.certifications-list li p {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #7c4a08;
+    font-weight: bold;
+}
+.certifications-list strong {
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+}
+
+.logo {
+    margin: 1rem auto;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .me-content img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .logo {
+        height: auto;
+        width: 100%;
+        max-width: 300px;
+    }
+}
