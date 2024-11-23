@@ -24,9 +24,9 @@ CSS3
 https://github.com/user-attachments/assets/94623e43-3df2-4d7d-bb90-a09fa9828b6d
 
 📂 Project Structure
-├── index.html        # Main HTML file for the portfolio
-├── style.css         # Custom CSS for styling the portfolio
-└── assets/           # Images and additional resources (optional)
+├── PORTFOLIO.html        # Main HTML file for the portfolio
+├── port.css              # Custom CSS for styling the portfolio
+└── assets/               # Images and additional resources (optional)
 
 📈 Future Enhancements
 Adding JavaScript for interactivity (e.g., dynamic themes, animations).
